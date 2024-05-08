@@ -1,19 +1,16 @@
 import React from 'react';
 import {
   Button,
-  Checkbox,
   Container,
-  FormControlLabel,
-  FormGroup,
   Paper,
-} from "@mui/material";
-import styles from './page.module.css';
+} from '@mui/material';
+// import styles from './page.module.css';
 
 export default function Home() {
   return (
     <Container>
       <Paper elevation={3} sx={{ p: 5 }}>
-        <Button variant="contained" color="primary">
+        <Button variant='contained' color='primary'>
           ボタン
         </Button>
       </Paper>

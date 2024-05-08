@@ -5,7 +5,7 @@
       "error",
       { "extensions": [".ts", ".tsx"] }
     ],
-    "quotes": ["error", "single"],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
     "indent": ["error", 2]
   }
 }
